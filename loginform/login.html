@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Form</title>
+
+    <!-- font awesome icon -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- css file link -->
+    <link rel="stylesheet" href="/login.css">
+</head>
+<body>
+    <div class="login">
+        <div id="user-details">
+            <i class="fa fa-user-circle-o profile"></i>
+            <h3 id="info">Login Info</h3>
+        </div>
+        <div class="info-group">
+            <div class="user">
+                <i class="fa fa-user icon"></i>
+                <input type="text" placeholder="Username" required>
+            </div>
+            <div class="password">
+                <i class="fa fa-lock icon"></i>
+                <input type="password" placeholder="Password" required>
+            </div>
+        </div>
+        <div class="user-guide">
+            <a href="#" id="forgot">Forgot password ?</a>
+        <button type="b" class="btn" onclick="{alert('Welcome back, you are logged in.')}">Login</button>
+            <a href="#" class="create">Don't have an account ?</a>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(45deg, rgba(151,226,210,0.774), rgba(92,189,140,0.65)),url(/login3.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.login{
+    width: 25rem;
+    padding: 30px 50px;
+    background: white;
+    text-align: center;
+}
+.profile{
+    font-size: 50px;
+    color: lightskyblue;
+}
+#info{
+    margin-top: 10px;
+}
+.info-group{
+    margin-top: 30px;
+    margin-bottom: 10px;
+    padding: 0;
+    width: 100%;
+}
+input{
+    border: none;
+    outline: none;
+    padding: 3px 28px;
+    font-size: 17px;
+    width: 100%;
+    background: rgb(224,221,221);
+}
+.user,.password{
+    margin-top: 10px;
+}
+.icon{
+    width: 20px;
+    font-size: 20px;
+    padding: 3px;
+    color: rgb(77,75,75);
+    position: fixed;
+}
+.user-guide{
+    margin-top: 0px;
+    display: inline;
+}
+#forgot{
+    display: block;
+    font-size: 15px;
+    margin-bottom: 50px;
+    text-align: left;
+    color: blue;
+}
+.btn{
+    display: block;
+    margin: 15px auto;
+    font-size: 20px;
+    border: none;
+    outline: none;
+    background: lightskyblue;
+    width: 100%;
+    position: relative;
+    padding: 5px 0;
+    border-radius: 20px;
+}
+.btn:active{
+    color: white;
+}
+.create{
+    color: blue;
+}
